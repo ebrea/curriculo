@@ -1,0 +1,140 @@
+@charset "UTF-8";          /* Folha de EStilo */
+
+body {
+    background-color: #dddddd;
+}
+
+div#quadro1 {
+   width: 1100px;
+   height: 650px;
+   background-color: beige;
+   margin: 100px auto 10px auto;        /*     cima - esq - baixo - dir   */
+   box-shadow: 10px 10px 10px rgb(54, 50, 50, 0.5);     
+           /* desl. hor - vert - espalhamento - côr   */   
+}
+
+img#foto {
+   position: relative;
+   border: 8px solid grey;
+   box-shadow: yellow;
+   left: 450px;
+   top: 10px;
+}
+div#logo {
+   text-align: center;      
+   /* como não há "img-align", colcoco a "img" dentro de uma "div" e faço assim  */
+}
+div#quadro {
+   width: 1100px;
+   height: auto;
+   background-color: white;
+   margin: 100px auto 40px auto;        /*     cima - esq - baixo - dir   */
+   padding-bottom: 20px;
+   box-shadow: 10px 10px 10px rgb(54, 50, 50, 0.5);     
+           /* desl. hor - vert - espalhamento - côr   */   
+}
+h1 { 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 22pt;
+   color: rgb(7, 7, 230);
+   text-shadow: 2px 2px 2px black;
+   position: relative;
+   text-align: center;
+   top:80px;
+}
+div#quadro li {
+   font-size: 23px;
+   text-align: justify;
+   margin-left: 20px;
+   margin-right: 20px;
+
+
+}
+div#quadro h2 {
+   position: relative;
+   top:20px;
+}
+h2 {
+   color: red;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 28px;
+}
+h3 {
+   color: blue;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 22px;
+   text-align: center;
+}
+h4 {    /* Meu nome */
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 22pt;
+   color: rgb(7, 7, 230);
+   position: relative;
+   text-align: center;
+   top: 20px;
+}
+
+p {
+   position: relative;
+   top: 10px;
+   text-indent: 50px;  
+   font-size: 18pt;
+   color: black;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+div#quadro1 p {   text-align: justify;   }
+div#quadro p {  
+   text-align: left;
+
+}
+
+ /*               Formatação do MENU  ( posição Absoluta)                       */  
+ nav#menu {
+   display: block;                    /* faz o menu flutuar  */
+ }
+                                                 
+ nav#menu ul {
+   list-style: none;             /* retira os traços de tópicos*/
+   text-transform: uppercase;    /* menu em maiúsculo  */
+   position: absolute;
+   top: 30px;                    /* pode ser negativo ex: -25px  */
+   left: 100px;                   /* posição do menu, partindo da esquerda  */
+    
+ }
+
+ nav#menu li {
+   display: inline-block;      /* menu fica horizontal  */
+   background-color: rgb(54, 50, 50); 
+   padding: 5px;              /* espaço ao redor do item do menu  */
+   margin: 4px;                /* espaço entre itens do menu (em toda a volta)  */
+   transition: background-color 0.5s;
+ }
+
+ nav#menu li:hover {    /* efeitos ao passar o cursor do mouse no menu */
+   background-color:cornflowerblue 
+ 
+ }
+
+ nav#menu a {
+   color:white;              /* cor do texto do menu   */
+   text-decoration: none;      /* retira o underline  */
+
+ }
+
+ ul#cursos {
+   line-height: 35px;
+   
+ }
+
+ picture#hobby {
+    position: absolute;
+    top: 330px;
+    left: 100px;
+ }
+
+  /*  nav#menu a:hover {  color: red;   }     */
+
+
+
