@@ -75,6 +75,12 @@ h4 {    /* Meu nome */
    top: 20px;
 }
 
+h5 {
+   text-align: center;
+   font-size: larger;
+   font-style: italic;
+}
+
 p {
    position: relative;
    top: 10px;
